@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form autofocus="on" autocomplete="on" action="" novalidate>
+        <fieldset>
+            <legend>Form</legend>
+        <label for="com-name">Company Name</label>
+        <input type="text" id="com-name" name="com-name" value="Test Yantra Software" readonly><br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">E Mail</label>
+        <input type="email" id="email" name="email" ><br>
+        <label for="number">Number</label>
+        <input type="tel" id="number" name="number" maxlength="10" minlength="10"><br>
+        <label for="doj">Date of Joining</label>
+        <input type="date" id="doj" name="doj" max="2024-03-09" min="2024-02-21"><br>
+        <label for="yoe">YOE</label>
+        <input type="range" name="yoe"><br>
+        <label for="resume">Resume</label>
+        <input type="file" size="1.0mb" name="resume"><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender" name="gender" value="male">Male
+        <input type="radio" id="gender" name="gender" value="female" disabled>Female <br><br>
+        <label for="skills">Skills</label><br>
+        <input type="checkbox" name="skills" id="skills" value="Java">Java Developer <br>
+        <input type="checkbox" name="skills" id="skills" value="mern">Mern Developer <br>
+        <input type="checkbox" name="skills" id="skills" value="flutter">Flutter Developer <br>
+        <input type="checkbox" name="skills" id="skills" value="dart">Dart Developer <br>
+        <input type="checkbox" name="skills" id="skills" value="golang">GoLANG Developer <br>
+        <input type="checkbox" name="skills" id="skills" value="Database" checked>Database Developer <br>
+        <input type="checkbox" name="skills" id="skills" value="python">Python Developer <br><br>
+        <label for="qualification">Qualificaton</label>
+        <select name="qualification" id="qualification">
+            <optgroup label="UG Graduate">
+                <option value="BE">BE</option>
+                <option value="BCA">BCA</option>
+                <option value="BSC">BSC</option>
+                <option value="BTECH">BTECH</option>
+            </optgroup>
+            <optgroup label="PG Graduate">
+                <option value="ME">ME</option>
+                <option value="MCA">MCA</option>
+                <option value="MSC">MSC</option>
+                <option value="MTECH">MTECH</option>
+            </optgroup>
+        </select><br><br>
+        <label for="project">Project Summary</label>
+        <textarea name="ps" id="project" cols="30" rows="10"></textarea><br><br>
+        <button>Submit</button>
+    </fieldset>
+    </form>
+</body>
+</html>

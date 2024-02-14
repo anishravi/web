@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+#mainblock{
+    /* border: 2px solid gray; */
+    height: 660px;
+    width: 400px;
+    margin-left: 550px;
+    margin-top: 25px;
+    background-color: rgb(38, 32, 32);
+}
+
+.manager{
+    /* border: 2px solid white; */
+    height: 205px;
+    width: 398px;
+}
+
+.sport-block{
+    /* border: 2px solid red; */
+    height: 448px;
+    width: 398px;
+}
+
+img{
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 100%;
+    box-shadow: 0px -3px 18px rgb(79, 244, 79);
+}
+#name{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 10px;
+    /* border: 2px solid white; */
+    width: 200px;
+    margin-left: 90px;
+    height: 9px;
+}
+#contact{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(25, 158, 43);
+    font-size: 18px;
+    padding-top: 0px;
+}
+
+.sq{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+}
+.sl{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 390px;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    height: 45px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: rgb(84, 77, 77);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+button:hover{
+    background-color: green;
+    scale: 1.1;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-aside{
+    background-color: grey;
+    height: 600px;
+    width: 300px;
+}
+
+.main-article{
+    background-color: rgb(109, 109, 194);
+    height: 600px;
+    width: calc(100% - 300px);
+    margin-left: 300px;
+    margin-top: -600px;
+}
+.main-section{
+    height: 300px;
+    width: 950px;
+    background-color: powderblue;
+    margin: auto;
+}
+.footer-block{
+    height: 50px;
+    background-color: rgb(9, 9, 23);
+}
