@@ -2,10 +2,11 @@
 .car-mainblock{
     height: 650px;
     width: 1100px;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: auto;
     margin-top: 40px;
     display: flex;
+    background-color: rgb(230, 224, 224);
 }
 .car-mainblock .car-card{
     height: 600px;
@@ -15,11 +16,18 @@
 }
 .car-mainblock #sedan{
     margin-left: 50px;
+    background: linear-gradient(rgb(244,74,12),rgb(225, 108, 65),rgb(229,130,94),rgb(193,130,107));
 }
-.car-mainblock #sedan>div{
+.car-mainblock #suv{
+    background: linear-gradient(rgb(33,95,229),rgb(68,68,220),rgb(111,111,189),rgb(149,149,207));
+}
+.car-mainblock #bmw{
+    background: linear-gradient(rgb(17,231,17),rgb(78,199,78),rgb(147,217,147),rgb(175,225,175));
+}
+.car-mainblock .car-card>div{
     display: flex;
 }
-.car-mainblock #sedan>div>.mod{
+.car-mainblock .car-card>div>.mod{
     height: 45px;
     width: 45px;
     border-radius: 100%;
@@ -27,7 +35,7 @@
     margin-left: 62px;
     margin-top: 32px;
 }
-.car-mainblock #sedan>div>.icon{
+.car-mainblock .car-card>div>.icon{
     height: 31px;
     width: 45px;
     background-color: rgb(239, 211, 177);
@@ -40,10 +48,32 @@
     color: white;
 }
 
-.car-mainblock #sedan>h1{
+.car-mainblock .car-card>h1{
     font-size: 30px;
     padding-left: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
     letter-spacing: 2px;
-    font-style: italic;
+    /* font-style: italic; */
+    line-height: 25px;
+    color: white;
+}
+
+.car-mainblock .car-card>p{
+    width: 300px;
+    /* border: 2px solid #000; */
+    margin: auto;
+    margin-top: 97px;
+    padding-left: 5px;
+    color: white;
+}
+
+.car-mainblock .car-card>.sbtn{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 45px;
+    color: orangered;
+    border: none;
 }

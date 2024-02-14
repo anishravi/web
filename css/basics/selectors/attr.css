@@ -1,0 +1,35 @@
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a[href]{
+    text-decoration: none;
+}
+a[target="_blank"]{
+    color: green;
+}
+
+div[class~="jhon"]{
+    background-color: black;
+    color: white;
+}
+
+ section[class|="flower"]{   /* only exact word and word followed by hyphen */
+    background-color: blueviolet;
+    color: red;
+}
+
+div[id^="ram"]{
+    background-color: red;
+    color: white;
+}
+
+div[id$="sita"]{
+    background-color: red;
+    color: white;
+}
+
+article[class*="len"]{       /*selected only if there is occurence of the given match*/
+    background-color: olivedrab;
+}
