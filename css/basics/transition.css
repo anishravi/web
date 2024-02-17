@@ -1,0 +1,56 @@
+.container{
+    height: 400px;
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    /* transition-delay: 1s;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); */
+    animation-delay: 5s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-name: boxplay;
+}
+
+/* @keyframes boxplay{
+    25%{
+        background-color: red;
+    }
+    50%{
+        transform: rotateY(180deg);
+        background-color: white;
+    }
+    100%{
+        margin-left: 10px;
+        background-color: yellowgreen;
+    }
+} */
+@keyframes boxplay{
+    from{
+        margin-top: 80px;
+        margin-left: 100px;
+        background-color: red;
+        border-radius: 100%;
+        transform: scale(.2);
+    }
+    to{
+        margin-right: 80px;
+        margin-bottom: 100px;
+        background-color: green;
+        border-radius: 25%;
+        transform: skewX(30deg);
+    }
+}
+/* .box:hover{
+    transform: skew(120deg, 120deg);
+    transform: rotate(0.1turn);
+} */

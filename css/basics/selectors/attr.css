@@ -10,7 +10,7 @@ a[target="_blank"]{
     color: green;
 }
 
-div[class~="jhon"]{
+div[class~="jhon"]{  /* selected if there is exact match and if there is any space before and after the word */
     background-color: black;
     color: white;
 }
@@ -20,16 +20,16 @@ div[class~="jhon"]{
     color: red;
 }
 
-div[id^="ram"]{
+div[id^="ram"]{         /*selected only if the word is prefixed and will not take even empty space before*/
     background-color: red;
     color: white;
 }
 
-div[id$="sita"]{
+div[id$="sita"]{       /*selected if the given match exactly and selects even if there is space or hyphen*/
     background-color: red;
     color: white;
 }
 
-article[class*="len"]{       /*selected only if there is occurence of the given match*/
+article[class*="len"]{       /*selected only if there is occurence of the given match exactly*/
     background-color: olivedrab;
 }

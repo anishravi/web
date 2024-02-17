@@ -1,0 +1,166 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 45px;
+    background-color: black;
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding: 6px;
+}
+
+.main-formblock{
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 630px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.main-formblock .right-formblock{
+    /* border: 2px solid green; */
+    height: 580px;
+    width: 50%;
+    position: relative;
+}
+
+.main-formblock .right-formblock>.company-name{
+    position: absolute;
+    color: rgb(144, 29, 3);
+    top: 70px;
+    left: 90px;
+    z-index: 1;
+    font-size: 60px;
+    font-weight: 900;
+}
+.main-formblock .left-formblock{
+    border: 2px solid green;
+    height: 580px;
+    width: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.main-formblock .right-formblock>img{
+    filter: opacity(0.6);
+}
+
+.main-formblock .left-formblock .formdesign{
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 109px;
+    height: 150px;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.main-formblock .left-formblock .formdesign .right{
+    border: 3px solid;
+    width: 200px;
+    color: aliceblue;
+}
+
+.main-formblock .left-formblock .formdesign .left{
+    border: 3px solid;
+    width: 200px;
+    color: aliceblue;
+}
+
+.main-formblock .left-formblock .formdesign .log-icon{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100%;
+    color: aliceblue;
+}
+
+.main-formblock .left-formblock .formdesign .log-icon>i{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.main-formblock .left-formblock>.formblock{
+    height: 390px;
+    width: 600px;
+    /* border: 2px solid white; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-formblock .left-formblock>.formblock .nameid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.main-formblock .left-formblock>.formblock #username{
+    height: 45px;
+    width: 200px;
+    text-align: center;
+}
+.main-formblock .left-formblock>.formblock #eid{
+    height: 45px;
+    width: 200px;
+    text-align: center;
+}
+.main-formblock .left-formblock>.formblock #mail{
+    height: 45px;
+    width: 404px;
+    text-align: center;
+}
+.main-formblock .left-formblock>.formblock #pwd{
+    height: 45px;
+    width: 404px;
+    text-align: center;
+}
+.main-formblock .left-formblock>.formblock #sbtn{
+    height: 45px;
+    width: 220px;
+    text-align: center;
+}
+.main-formblock .left-formblock>.formblock .data{
+    font-size: 21px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: aqua;
+}
+.main-formblock .left-formblock>.formblock .data:focus{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid aqua;
+    font-size: 20px;
+    color: aqua;   
+}
+input:-webkit-autofill{
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: aqua;
+}
+.main-formblock .left-formblock>.formblock h5{
+    color: white;
+}
+.main-formblock .left-formblock>.formblock h5>a{
+    text-decoration: none;
+}
+
+.main-formblock .left-formblock>.formblock h5>a:active{
+    color: green;
+}
+.main-formblock .left-formblock>.formblock h5>a:visited{
+    color: aqua;
+}
+

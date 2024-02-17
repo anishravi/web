@@ -1,0 +1,13 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 600px;
+    margin-top: 200px;
+    padding: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-shadow: 10px 10px 2px red;
+    box-shadow: 23px -50px 4px red;
+}

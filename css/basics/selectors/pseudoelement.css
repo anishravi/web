@@ -1,0 +1,42 @@
+.container{
+    border: 2px solid red;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+p{
+    font-size: 25px;
+    padding: 20px;
+}
+p::first-line{
+    color: red;
+    background-color: yellow;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+p::before{
+    content: "(❁´◡`❁)";
+}
+p::after{
+    content: "(❁´◡`❁)";
+}
+
+p::selection{
+    /* color: white;
+    background-color: red; */
+    user-select: none;
+}
+
+li{
+    font-size: x-large;
+}
+/* li::before{
+    content: "👉";
+} */
+li::marker{
+    color: green;
+}

@@ -1,0 +1,109 @@
+.face{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.face .eyeblock{
+    height: 150px;
+    width: 500px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: -8px;
+}
+
+.face .eyeblock .eyes{
+    height: 60px;
+    width: 60px;
+    border-radius: 80%;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.face .eyeblock .eyes>.eyeball{
+    height: 30px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.face .eyeblock #righteye{
+    margin-left: 37px;
+    margin-top: 73px;
+}
+.face .eyeblock #lefteye{
+    margin-left: -16px;
+    margin-top: 73px;
+}
+
+.face .noseblock{
+    height: 160px;
+    width: 500px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.face .nose{
+    height: 0px;
+    width: 125px;
+    background-color: black;
+    border-top: 55px solid black;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-radius: 154px 149px 36px 42px;
+    margin-left: 1px;
+}
+
+.face .mouthblock{
+    height: 190px;
+    width: 500px;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.face .mouth{
+    height: 120px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 26px 31px 97px 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+
+.tongue{
+    height: 160px;
+    width: 184px;
+    background-color: rgb(212, 28, 28);
+    border: 2px solid;
+    border-radius: 51px 41px 97px 103px;
+    display: none;
+}
+
+.mouth:hover>.tongue{
+    display: block;
+    transform: skew(15deg);
+    margin-top: 70px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+img{
+    border-radius: 100%;
+    margin-left: 606px;
+    margin-top: -100px;
+    z-index: 1;
+    position: relative;
+}
