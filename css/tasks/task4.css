@@ -1,17 +1,57 @@
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 400px;
-    margin-top: -200px;
-    margin-left: -200px;
-    border-radius: 2px;
-    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
-    overflow: hidden;
-    background: #34495e;
-    color: #fff;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400);
+
+.content {
+  margin: auto;
+  margin-left: 430px;
+  margin-top: 125px;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  /* box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.15); */
+	overflow: hidden;
+  background: #512626;
+  color: #fff;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+}
+
+.boxes>.card {
+	box-sizing: border-box;
+  position: relative;
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: #E27474;
+	transition: all .3s ease-in-out;
+  animation-duration: 10s;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 55px;
+}
+.boxes>.card:hover {
+  animation-name: turn;
+}
+	
+.boxes>.card .text {
+	display: block;
+	font-weight: 400;
+	font-size: 16px;
+}
+	
+.boxes>.card .number {
+	display: block;
+	font-weight: 700;
+  font-size: 60px;
+}
+
+@keyframes turn {
+  0%{
+    
+  }
+  50%{
+    transform: scale(0.8);
+  }
+  100%{
+    transform: rotate(-360deg);
+  }
 }
