@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    height: 500px;
+    width: 90%;
+    background-color: rgb(243, 235, 226);
+    margin-top: 90px;
+    border: 2px solid #000;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap:  wrap-reverse; */
+    flex-wrap:  wrap;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(97, 97, 193);
+    border: 3px solid rgb(217, 103, 103);
+    color: rgb(213, 133, 133);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+}

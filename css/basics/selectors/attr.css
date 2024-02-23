@@ -10,12 +10,12 @@ a[target="_blank"]{
     color: green;
 }
 
-div[class~="jhon"]{  /* selected if there is exact match and if there is any space before and after the word */
+ div[class~="jhon"]{  /*selected if there is exact match and if there is any space before and after the word */
     background-color: black;
     color: white;
 }
 
- section[class|="flower"]{   /* only exact word and word followed by hyphen */
+section[class|="flower"]{   /* only exact word and word followed by hyphen */
     background-color: blueviolet;
     color: red;
 }
