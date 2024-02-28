@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    height: 75px;
+    background-color: rgb(191, 221, 248);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.box{
+    height: 75px;
+    width: 300px;
+    /* border: 2px solid red; */
+    font-size: xx-large;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contact{
+    position: absolute;
+}
+.drop{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    display: none;
+    position: relative;
+    top: 75px;
+    /* left: 200px; */
+}
+#contact:hover+.drop{
+    display: block;
+}
+.content{
+    height: 900px;
+    background-color: gray;
+    z-index: 1;
+}
+
+.like{
+    height: 250px;
+    width: 80px;
+    background-color: black;
+    font-size: 60px;
+    border-radius: 100%;
+    position:fixed;
+    right: 10px;
+    /* z-index: 2; */
+    text-align: center;
+}
